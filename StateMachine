@@ -1,4 +1,4 @@
-public class ArenaTrackStateMachine
+public class StateMachine
 {
     public TrackState currentState = null;
 
