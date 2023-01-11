@@ -2,7 +2,7 @@ public class StateMachine
 {
     public TrackState currentState = null;
 
-    public ArenaTrackStateMachine(){
+    public StateMachine(){
         currentState = new NotPlayingState(this);
     }
 
