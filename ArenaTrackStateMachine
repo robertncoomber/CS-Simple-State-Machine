@@ -1,0 +1,13 @@
+public class ArenaTrackStateMachine
+{
+    public TrackState currentState = null;
+
+    public ArenaTrackStateMachine(){
+        currentState = new NotPlayingState(this);
+    }
+
+    public void GoToNextState()
+    {
+        currentState.Exit();
+    }
+}
