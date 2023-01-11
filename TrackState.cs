@@ -1,3 +1,4 @@
+// base state class
 public class TrackState
 {
     public string name;
