@@ -1,6 +1,6 @@
 public class IsPlayingState : TrackState
 {
-    public IsPlayingState(ArenaTrackStateMachine state)
+    public IsPlayingState(StateMachine state)
     {
         stateMachine = state;
         UnityEngine.Debug.Log("entered is playing state");
