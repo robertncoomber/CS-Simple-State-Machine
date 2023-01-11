@@ -1,7 +1,7 @@
 public class TrackState
 {
     public string name;
-    protected ArenaTrackStateMachine stateMachine;
+    protected StateMachine stateMachine;
     
     public virtual void Exit(){}
     public virtual void Update(){}
