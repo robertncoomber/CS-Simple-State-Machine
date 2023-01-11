@@ -1,6 +1,6 @@
 public class NotPlayingState : TrackState
 {
-    public NotPlayingState(ArenaTrackStateMachine state)
+    public NotPlayingState(StateMachine state)
     {
         stateMachine = state;
         UnityEngine.Debug.Log("entered not playing state");
